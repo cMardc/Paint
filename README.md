@@ -15,15 +15,15 @@ Before using this paint program, make sure you have the following libraries and 
 ## Compilation
 
 To compile the program, use the following command:
-
-gcc -o paint_program paint_program.c -lX11 -lXft
-
+```
+make
+```
 ## Usage
 
 Run the program using the following command:
-
-./paint_program
-
+```
+./build/main
+```
 ## User Interface
 
 The paint program window opens with the following elements:
